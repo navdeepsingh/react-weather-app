@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  background-color: skyblue;
+  color: white;
+  min-height: 100vh;
+  height: 100%;
+  padding: 20px;
+}
+small {
+  font-size: 0.8em;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &__temp {
+    font-size: 8em;
+  }
+}
+.data {
+  .record {
+    display: flex;
+
+    label {
+      font-weight: bold;
+      padding-right: 30px;
+      flex-basis: 200px;
+    }
+  }
+}
